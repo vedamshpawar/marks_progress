@@ -5,6 +5,12 @@ def isprime(num):
         if num % i == 0:
             return False
     return True
-
+def range_of_primes(num):
+    res = []
+    for i in range(num):
+        if isprime(num):
+            res.append(i)
+    return res
+    
 num = int(input('enter a number: '))
-print(isprime(num)) 
+print(range_of_primes(num))
