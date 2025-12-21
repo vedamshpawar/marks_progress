@@ -1,0 +1,65 @@
+table, th, td{
+    border: 2px solid black;
+    /* border-collapse: collapse; */
+    border-radius: 10px;
+    border-style: dotted;
+}
+th, td{
+    background-color: lightblue;
+}
+
+.city{
+    color: blue;
+    background-color: lightcoral;
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+.container{
+    background-color: chocolate;
+    align-items: center;
+}
+
+#greet{
+    color: black;
+}
+.wish{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.form-row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+legend{
+    padding: 0 20px;
+}
+label{
+    width: 130px;
+}
+fieldset{
+    width: 400px;
+}
+form{
+    background-color: lightblue;
+    display: inline-block;
+    margin: 200px auto;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.submit{
+    display: block;
+    margin: 15px auto;
+}
