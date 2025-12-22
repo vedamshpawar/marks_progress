@@ -62,4 +62,6 @@ body{
 .submit{
     display: block;
     margin: 15px auto;
+    color: black;
+    background-color: aquamarine;
 }
