@@ -97,3 +97,61 @@
 //     i++;
 // }
 
+// let st = `thisisjavascriptlearning`;
+// let len = st.length
+// console.log("the length is :",len)
+
+// let firstname = "suresh";
+// let lastname = "manik";
+// let text = `this is ${firstname}, and surname is ${lastname}`;
+// console.log(text);
+
+
+// let str = "helloworldhowareyou";
+// let text = str.at(0);
+// let text1 = str.charAt(1);
+// let text2 = str.charCodeAt(0);
+// let text3 = str.codePointAt(0)
+// console.log(text);
+// console.log(text1);
+// console.log(text2);
+// console.log(text3);
+
+// let text = "hello";
+// let text1 = "world";
+// let res = text.concat(' ',text1);
+// console.log(res);
+
+// let fruits = "apple, banana, pineapple";
+// let res = fruits.slice(7,13);
+// console.log(res);
+
+// let num = 123;
+// let res = num.toString();
+// console.log(typeof(res), res);
+
+// function celcius(farenheit){
+//     return (5/9) * (farenheit - 32);
+// }
+
+// let res = celcius(77);
+// console.log('this is farenheit: ',res);
+
+// let multiply = (a , b) => {
+//     return a * b;
+// }
+// let res = multiply(4,5);
+// console.log(res);
+
+
+// let sumOftwo = (a, b) => {
+//     return a + b;
+// }
+// let res = sumOftwo(4, 4);
+// console.log(res);
+
+let x = function(a, b){
+    return a + b;
+}
+let res = x(5, 5);
+console.log(res);
