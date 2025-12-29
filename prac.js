@@ -150,8 +150,35 @@
 // let res = sumOftwo(4, 4);
 // console.log(res);
 
-let x = function(a, b){
-    return a + b;
-}
-let res = x(5, 5);
-console.log(res);
+// let x = function(a, b){
+//     return a + b;
+// }
+// let res = x(5, 5);
+// console.log(res);
+
+// const cars = {
+//     carName : "brezza",
+//     carWeight : "840 kg",
+//     carColor : "white",
+//     carHeight : "5ft"
+// };
+// console.log(cars);
+
+// function Person(name, age, city, job){
+//     this.name = name;
+//     this.age = age;
+//     this.city = city;
+//     this.job = job;
+// };
+
+// const myFather = new Person("johncena", 35, "Hyderabad", "IT");
+// const myMother = new Person("malaika", 32, "nidadavole", "doctor");
+// const myBro = new Person("sai", 27, "armoor", "Civil");
+
+// console.log(myFather);
+// console.log(myMother);
+// console.log(myBro);
+
+
+const car = ['asia', 'volva', 'hybird'];
+console.log(car);
